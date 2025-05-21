@@ -9,7 +9,7 @@
 *   **Schwierigkeit:** Medium
 *   **Autor der VM:** DarkSpirit
 *   **Datum des Writeups:** 20. Mai 2025
-*   **Original-Writeup:** https://alientec1908.github.io/noport_HackMyVM_Medium/
+*   **Original-Writeup:** https://alientec1908.github.io/noports_HackMyVM_Medium/
 *   **Autor:** Ben C.
 
 ## Kurzbeschreibung
