@@ -1057,17 +1057,17 @@ Dieser Block verwendet `init_by_lua_block`, um beim Start von Nginx Lua-Code aus
 <p class="recommendation">**Risikobewertung:** Die erfolgreiche Erlangung von Root-Rechten stellt das höchstmögliche Risiko dar. Ein Angreifer mit Root-Zugriff kann beliebige Aktionen auf dem System durchführen, Daten stehlen, Malware installieren, das System als Ausgangspunkt für weitere Angriffe im Netzwerk nutzen oder das System komplett unbrauchbar machen. Das Risiko ist als Kritisch einzustufen.</p>
         </section>
 
-        <section id="flags">
+        <section id="flags">nach entfernen von "_"<br>
             <div class="flag-container">
                 <h2 class="flag-heading">Flags</h2>
                 <div class="flag-entry">
                     <div class="flag-command">noport:~$ cat user.txt</div>
-                    <div class="flag-value"><span class="password">flag{UR_s0_Good_*n-n3tvv0rk_For_660930334}</span></div>
+                    <div class="flag-value"><span class="password">flag{UR_s0Good*n-n3tvv0rk_For_660930334}</span></div>
                 </div>
                 <p class="comment">Die User-Flag wird typischerweise im Home-Verzeichnis des Benutzers gefunden</p>
                 <div class="flag-entry">
                     <div class="flag-command">noport:~# cat root.txt</div>
-                    <div class="flag-value"><span class="password">flag{Ur_t3h_Trvely_n3tvv0rk_@ce_on_QQGroup}</span></div>
+                    <div class="flag-value"><span class="password">flag{Ur_t3h_Trvelyn3tvv0rk@ce_on_QQGroup}</span></div>
                 </div> 
                  <p class="comment">Die Root-Flag wird nach erfolgreicher Privilegienerweiterung zum Root-Benutzer gefunden, typischerweise im `/root`-Verzeichnis.</p>
             </div>
